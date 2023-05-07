@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <Authors>Ben Rutt</Authors>
+    <Company>BNT</Company>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <IsPackable>true</IsPackable>
+    <PackageVersion>$([System.DateTime]::Now.ToString(&quot;yyyy.MM.dd.HHmm&quot;))</PackageVersion>
+  </PropertyGroup>
+
+</Project>
